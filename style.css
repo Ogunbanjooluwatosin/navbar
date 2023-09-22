@@ -1,0 +1,94 @@
+/* Global Styles */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+     background-color: #333;
+     text-align: center;
+}
+
+.navbar ul {
+     list-style: none;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     padding: 0;
+}
+
+.navbar ul li {
+     padding: 20px;
+     margin: 10px;
+     border: 1px solid white;
+}
+
+.navbar ul li a {
+     text-decoration: none;
+     color: white;
+}
+
+.navbar ul li:hover {
+     border-color: saddlebrown;
+     transition: border-color 0.3s ease;
+}
+
+/* Content Styles */
+.content h1 {
+     font-weight: 500;
+     padding: 10px;
+     margin: 5px;
+}
+
+.content hr {
+     border: 1px solid saddlebrown;
+}
+
+h2 {
+     padding: 20px;
+     margin: 10px;
+     font-weight: 300;
+}
+
+h2 a {
+     text-decoration: none;
+     color: black;
+}
+
+h2 a:hover {
+     color: saddlebrown;
+     transition: color 0.3s ease;
+     transition: underline;
+}
+
+article {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 10px;
+}
+
+article p {
+     font-weight: 300; /* This should be 'font-weight: 300;' for a valid value. */
+}
+
+.content img {
+     height: 200px;
+     width: 100%;
+     padding: 10px 20px;
+}
+
+/* Footer Styles */
+footer small{
+     position: relative;
+     top: 300px;
+     left:42%;
+     color:#fff;
+     margin:10px;
+     padding: 20px;
+     font-weight: 400;
+}
+
